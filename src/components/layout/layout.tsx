@@ -3,10 +3,9 @@
 import type React from "react"
 import type {ReactNode} from "react"
 
-import {Bell, CreditCard, Home, LogOut, Menu, Package, Search, Settings, UserPlus, Users} from "lucide-react"
+import {Bell, CreditCard, Home, LogOut, Package, Search, UserPlus, Users} from "lucide-react"
 import {Button} from "@/components/ui/button"
 import {Input} from "@/components/ui/input"
-import {Sheet, SheetContent, SheetTrigger} from "@/components/ui/sheet"
 import {
     DropdownMenu,
     DropdownMenuContent,
