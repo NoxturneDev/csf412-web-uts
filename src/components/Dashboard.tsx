@@ -1,4 +1,4 @@
-import React from "react"
+import React, {ReactNode} from "react"
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -45,7 +45,7 @@ interface RecentSale {
   amount: number
 }
 
-const Dashboard: React.FC = () => {
+const Dashboard: React.ReactNode = () => {
   // Generate sample recent sales
   const recentSales: RecentSale[] = Array.from({ length: 5 }, (_, i) => ({
     id: i + 1,
