@@ -29,7 +29,7 @@ const Layout: React.FC<LayoutProps> = ({children}) => {
             <header className="sticky top-0 z-10 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
                 <div className="flex items-center gap-2 md:ml-auto md:gap-4">
                     <div className="hidden md:flex">
-                        <div className="text-lg font-semibold">Admin Dashboard</div>
+                        <div className="text-lg font-semibold">Admin Laundry Dashboard</div>
                     </div>
                     <div className="ml-auto flex items-center gap-4">
                         <div className="relative">
